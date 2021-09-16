@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Photo } from '../core/objects/photo';
 
 @Component({
   selector: 'app-one-page',
@@ -7,9 +8,16 @@ import { Component, OnInit } from '@angular/core';
 })
 export class OnePageComponent implements OnInit {
 
-  constructor() { }
+  constructor() {
+   }
 
   ngOnInit(): void {
+  }
+
+  photo: Photo = new Photo;
+
+  setPhoto(photo : Photo) : void{
+    this.photo = photo;
   }
 
 }

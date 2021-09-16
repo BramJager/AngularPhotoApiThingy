@@ -1,18 +1,15 @@
 .grid-container{
+    margin: 5px;
     display: grid;
     float: left;
     clear: right;
     gap: 5px;
-    grid-template-columns: repeat(8, 1fr);
+    grid-template-columns: repeat(3, 1fr);
 }
 
 .grid-item{
-    width: 11.9vw;
-}
-
-a {
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    display: block;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }

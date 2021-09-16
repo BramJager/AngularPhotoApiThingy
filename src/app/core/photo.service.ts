@@ -10,6 +10,8 @@ export class PhotoService {
 
   constructor(private http: HttpClient){};
 
+  currentPhotoId: string | null = null;
+
   getAll() : Observable<Photo[]>{
 
     return this.http.get<Photo[]>("https://jsonplaceholder.typicode.com/photos");
@@ -17,5 +19,9 @@ export class PhotoService {
 
   getPhoto(id: string | null) : Observable<Photo>{
     return this.http.get<Photo>("https://jsonplaceholder.typicode.com/photos/" + id)
+  }
+
+  setCurrentId(photo: Photo) : void{
+    this.currentPhotoId = photo.id.toString();
   }
 }

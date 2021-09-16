@@ -1,1 +1,2 @@
-
+<div class="list"><app-photo-list (newItemEvent)="setPhoto($event)"></app-photo-list></div>
+<div *ngIf="photo.id !== 0" class="photo"><app-photo [photo]="photo"></app-photo></div>

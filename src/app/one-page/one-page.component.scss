@@ -1,0 +1,18 @@
+.list{
+    overflow-y: scroll;
+    overflow-x: hidden;
+    display: block;
+    max-height: 100vh;
+    max-width: 48vw;
+}
+
+.photo{
+    max-height: 100vh;
+    width: 50vw;
+    position: absolute;
+    right: 0;
+    top: 0;
+    display: block;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
