@@ -1,0 +1,18 @@
+.grid-container{
+    display: grid;
+    float: left;
+    clear: right;
+    gap: 5px;
+    grid-template-columns: repeat(8, 1fr);
+}
+
+.grid-item{
+    width: 11.9vw;
+}
+
+a {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: block;
+}

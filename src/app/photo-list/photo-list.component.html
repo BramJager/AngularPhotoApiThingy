@@ -1,0 +1,6 @@
+<div class="grid-container">
+        <div class="grid-item" *ngFor="let photo of photos">
+                <div class="photo"><img src="{{photo.thumbnailUrl}}"></div>
+                <a href="/photo/{{photo.id}}">{{photo.title}}</a>
+        </div>
+</div>
