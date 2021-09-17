@@ -1,8 +1,16 @@
 img{
-    width: 50vmin;
-    height: 50vmin;
+    width: 80vmin;
+    height: 80vmin;
+}
+
+div{
+    display: flex;
+    justify-content: center;
 }
 
 h1{
     text-align: left;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }

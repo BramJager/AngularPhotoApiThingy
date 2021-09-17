@@ -5,9 +5,9 @@ import { PhotoListComponent } from './photo-list/photo-list.component';
 import { PhotoComponent } from './photo/photo.component';
 
 const routes: Routes = [
-  {path: "", component: PhotoListComponent},
+  {path: "", component: OnePageComponent},
   {path: "photo/:id", component: PhotoComponent},
-  {path: "onepage", component: OnePageComponent}
+  {path: "photolist", component: PhotoListComponent}
 ];
 
 @NgModule({
