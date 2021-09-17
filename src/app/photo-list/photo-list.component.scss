@@ -13,3 +13,16 @@
     justify-content: center;
     align-items: center;
 }
+
+img{
+    width: 30vmin;
+    height: 30vmin;
+}
+
+button{
+    text-align: left;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 32vmin;
+    text-overflow: ellipsis;
+}

@@ -1,6 +1,6 @@
 <div class="grid-container">
         <div class="grid-item" *ngFor="let photo of photos.slice(0, 3000)">
-                <div class="photo"><img src="{{photo.thumbnailUrl}}"></div>
+                <div><img src="{{photo.thumbnailUrl}}"></div>
                 <button (click)="setPhoto(photo.id)">{{photo.title}}</button>
         </div>
 </div>
