@@ -20,9 +20,12 @@ img{
 }
 
 button{
+    background-color: rgb(104, 9, 96);
+    border: black;
     text-align: left;
     white-space: nowrap;
     overflow: hidden;
     width: 32vmin;
     text-overflow: ellipsis;
+    box-sizing: border-box;
 }
